@@ -17,25 +17,25 @@ const photos = [
     number: "01",
     label: "Professional Portrait",
     className: "photo-main",
-    src: "/images/01-original-portrait.webp",
+   src: `${import.meta.env.BASE_URL}images/01-original-portrait.webp`
   },
   {
     number: "02",
     label: "Developer Workspace",
     className: "photo-small photo-two",
-    src: "/images/portrait-developer-workspace.webp",
+   src: `${import.meta.env.BASE_URL}images/portrait-developer-workspace.webp`
   },
   {
     number: "03",
     label: "Outdoor Portrait",
     className: "photo-small photo-three",
-    src: "/images/portrait-outdoor.webp",
+  src: `${import.meta.env.BASE_URL}images/portrait-outdoor.webp`
   },
   {
     number: "04",
     label: "Professional Presentation",
     className: "photo-small photo-four",
-    src: "/images/portrait-presenting.webp",
+   src: `${import.meta.env.BASE_URL}images/portrait-presenting.webp`
   },
 ];
 
